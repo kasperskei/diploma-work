@@ -1,0 +1,67 @@
+.app-is-circle {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.app-is-middle {
+  display: flex;
+  align-items: center;
+}
+
+.app-is-vertical-line {
+  background-color: #dbdbdb;
+  border: none;
+  display: block;
+  height: 100%;
+  width: 1px;
+  margin: 0 1.5rem;
+}
+
+.app-is-sticky {
+  position: sticky;
+  top: 10px;
+}
+
+.app-is-not-select {
+  user-select: none;
+}
+
+.app-is-destroy {
+  display: none;
+}
+
+.app-is-image {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.app-is-padding-1 {
+  padding: 0.25rem; 
+}
+
+.app-is-padding-2 {
+  padding: 0.5rem; 
+}
+
+.app-is-padding-3 {
+  padding: 0.75rem; 
+}
+
+.app-is-padding-4 {
+  padding: 1rem; 
+}
+
+.app-is-lift:hover {
+  transition: all 0.2s ease-out;
+  transform: scale(1.02);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.app-is-lift {
+  transition: all 0.2s ease-out;
+}
+
+.app-has-shadow {
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
+}
